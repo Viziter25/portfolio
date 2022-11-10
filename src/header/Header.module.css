@@ -1,0 +1,12 @@
+.header {
+    background-color: #bee8f6;
+}
+
+
+
+.headerContainer {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}

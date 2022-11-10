@@ -1,0 +1,31 @@
+.project {
+    width: 250px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.imageProject {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: white;
+}
+
+.button {
+    height: 30px;
+    width: 50px;
+}
+
+.projectItem {
+    background-color: saddlebrown;
+
+}
+
+.description {
+
+}
