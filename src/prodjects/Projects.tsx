@@ -11,7 +11,7 @@ export const Projects = () => {
         <div className={s.projectsContainer}>
           <h2 className={s.title}>My projects</h2>
           <div className={s.projectsBlock}>
-            <Project title={'Todolist'} description={'11111111111111111111111111'}/>
+            <Project title={'Todolist'} description={'11111111111111111111113333333333333333333333333331111'}/>
             <Project title={'Counter'} description={'222222'}/>
           </div>
         </div>

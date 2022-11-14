@@ -1,0 +1,36 @@
+.contacts {
+    background-color: #b0efe5;
+    padding: 40px 0;
+}
+
+.contactsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    background-color: white;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.inputForName {
+    margin-bottom: 5px;
+}
+
+.inputForEmail {
+    margin-bottom: 5px;
+}
+
+.textArea{
+    
+}
+
+.buttonForSend {
+
+}
