@@ -1,13 +1,14 @@
 import React from 'react';
 import s from './Education.module.css'
 import styles from '../common/styles/Container.module.css'
+import {Title} from '../common/components/title/Title';
 
 export const Education = () => {
   return (
     <div className={s.education}>
       <div className={styles.container}>
         <div className={s.educationContainer}>
-          <h2 className={s.title}>Education</h2>
+          <Title title={'Education'}/>
           <table className={s.table}>
             <tr>
               <td>BNTU</td>

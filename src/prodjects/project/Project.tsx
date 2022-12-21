@@ -1,24 +1,22 @@
 import React from 'react';
 import s from './Project.module.css'
+import DescriptionItem from '../../common/components/descriptionItem/DescriptionItem';
 
 type ProjectPropsType = {
   title: string
   description: string
+  style: { backgroundImage:string }
 }
+
+
 
 export const Project = (props: ProjectPropsType) => {
   return (
     <div className={s.project}>
-      <div className={s.imageProject}>
+      <div className={s.imageProject} style={props.style}>
         <button className={s.button}>view</button>
       </div>
-      <div className={s.projectItem}>
-        <h3>{props.title}</h3>
-        <span className={s.description}>
-        {props.description}
-      </span>
-      </div>
-
+      <DescriptionItem title={props.title} description={props.description}/>
     </div>
   );
 };

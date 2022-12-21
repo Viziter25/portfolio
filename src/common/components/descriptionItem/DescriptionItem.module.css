@@ -1,0 +1,33 @@
+.projectItem {
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.projectItem p{
+    margin: 0 0 15px;
+}
+
+.title {
+    color: #757575;
+    font-size: 14px;
+    margin: 0 0 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.line {
+    background: #d2d2d2 none repeat scroll 0 0;
+    height: 1px;
+    margin: 0 auto;
+    width: 50px;
+}
+
+
+.description {
+    word-break: break-word;
+    color: #979797;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: Poppins, serif;
+}

@@ -1,10 +1,10 @@
 import React from 'react';
 import s from './Footer.module.css'
 import styles from '../common/styles/Container.module.css'
-import telegramIcon from  '../img/telegram.png'
-import instagramIcon from  '../img/instagram.png'
-import githubIcon from  '../img/github.png'
-import googleIcon from  '../img/google.png'
+import telegramIcon from '../assets/img/telegram.png'
+import instagramIcon from '../assets/img/instagram.png'
+import githubIcon from '../assets/img/github.png'
+import googleIcon from '../assets/img/google.png'
 
 
 
