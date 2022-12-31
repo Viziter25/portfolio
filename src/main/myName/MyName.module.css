@@ -1,0 +1,36 @@
+
+.title {
+    color: #494949;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+
+.title h1{
+    color: #414141;
+    font-size: 44px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    margin: 0 0 15px;
+    line-height: 28px;
+}
+
+.title h5{
+    color: #919191;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 0 15px;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+
+
+.titleText{
+    font-family: Poppins, serif;
+    color: #6a6a6a;
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 0 15px;
+}
+

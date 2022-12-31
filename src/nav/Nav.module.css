@@ -1,7 +1,27 @@
 .nav {
     display: flex;
     border: 1px solid;
-    width: 300px;
+    width: 55%;
     justify-content: space-between;
     margin-right: 40px;
 }
+
+.nav a{
+    color: #777;
+    display: block;
+    line-height: 40px;
+    padding: 0 5px;
+    position: relative;
+    letter-spacing: .4px;
+    font-family: Montserrat, serif;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+@media (max-width: 960px) {
+    .nav {
+        display: none;
+    }
+}
+
+

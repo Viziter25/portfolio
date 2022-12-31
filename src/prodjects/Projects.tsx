@@ -2,8 +2,9 @@ import React from 'react';
 import s from './Projects.module.css'
 import styles from '../common/styles/Container.module.css'
 import {Project} from './project/Project';
-import {Title} from '../common/components/title/Title';
+
 import todoImage from './../assets/img/counter.jpg'
+import {Title} from '../common/components/title/Title';
 
 
 export const Projects = () => {
