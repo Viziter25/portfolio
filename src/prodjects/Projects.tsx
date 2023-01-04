@@ -4,14 +4,45 @@ import styles from '../common/styles/Container.module.css'
 import {Project} from './project/Project';
 
 import todoImage from './../assets/img/counter.jpg'
+import todolistImage from './../assets/img/todolist.jpg'
+import keyBoardImage from './../assets/img/keyboard.jpg'
 import {Title} from '../common/components/title/Title';
+
+
+type ProjectType = {
+  style: { backgroundImage: string }
+  title: string,
+  description: string,
+  url: string
+}
 
 
 export const Projects = () => {
 
-  const todolist = {
-    backgroundImage: `url(${todoImage} )`
-  }
+  const project: ProjectType[] = [
+    {
+      style: {backgroundImage: `url(${todolistImage} )`},
+      title: 'Todolist',
+      description: 'Technology stack: react, redux, react-redux, redux-thunk, react-router-dom, react-hook-form, typescript, axios, material-ui, redux toolkit',
+      url: 'https://viziter25.github.io/ts-todolist-react/'
+    },
+    {
+      style: {
+        backgroundImage: `url(${keyBoardImage} )`
+      },
+      title: 'Keyboard',
+      description: 'This application done only JS',
+      url: 'https://viziter25.github.io/RSS-Virtual-Keyboard/'
+    },
+    {
+      style: {
+        backgroundImage: `url(${todoImage} )`
+      },
+      title: 'Shelter',
+      description: 'Technology stack: HTML, CSS, media queries, transformation & animation, perfect-pixel, responsive design, modal window',
+      url: 'https://viziter25.github.io/RSS-Virtual-Keyboard/'
+    },
+  ]
 
   return (
     <div className={s.projects}>
@@ -19,8 +50,7 @@ export const Projects = () => {
         <div className={s.projectsContainer}>
           <Title title={'My projects'}/>
           <div className={s.projectsBlock}>
-            <Project style={todolist} title={'Todolist'} description={'There are many variatio ns of passages of Lorm available, bu in some form'}/>
-            <Project style={todolist} title={'Counter'} description={'222222'}/>
+            {project.map(elem => <Project key={elem.title} title={elem.title} description={elem.description} style={elem.style} url={elem.url}/>)}
           </div>
         </div>
       </div>

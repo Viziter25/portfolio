@@ -1,36 +1,27 @@
 .contacts {
-    background-color: #b0efe5;
+    background-color: #ffffff;
     padding: 40px 0;
 }
 
 .contactsContainer {
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
-.title {
-    background-color: white;
+.contactsBlock {
+    width: 40em;
 }
 
-.contactForm {
-    display: flex;
-    flex-direction: column;
-    margin: 20px 0;
+.text {
+    word-break: break-word;
+    color: #777;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: Poppins, serif;
+    margin: 0 0 15px;
 }
 
-.inputForName {
-    margin-bottom: 5px;
-}
 
-.inputForEmail {
-    margin-bottom: 5px;
-}
 
-.textArea{
-    
-}
-
-.buttonForSend {
-
-}

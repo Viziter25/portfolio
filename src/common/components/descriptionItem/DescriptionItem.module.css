@@ -1,6 +1,7 @@
 .projectItem {
     padding: 10px;
     margin-bottom: 30px;
+    text-align: justify;
 }
 
 .projectItem p{
@@ -14,6 +15,7 @@
     font-weight: 700;
     text-transform: uppercase;
     font-family: 'Montserrat',sans-serif;
+    text-align: center;
 }
 
 .line {

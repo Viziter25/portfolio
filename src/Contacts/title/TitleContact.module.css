@@ -1,0 +1,27 @@
+
+.title {
+    color: #494949;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+
+
+}
+
+.title h2{
+    font-size: 30px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    margin: 0 0 15px;
+    line-height: 1.1;
+}
+
+.horizontalLine div {
+    background: #bcbcbc none repeat scroll 0 0;
+    height: 2px;
+    width: 77px;
+}
+
+.horizontalLine div.top {
+    margin-bottom: 3px;
+    width: 44px;
+}

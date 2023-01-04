@@ -7,7 +7,7 @@ const DescriptionItem = (props: {title: string, description: string}) => {
       <h5 className={s.title}>{props.title}</h5>
       <div className={s.line}/>
       <p></p>
-      <span className={s.description}>``
+      <span className={s.description}>
           {props.description}
         </span>
     </div>

@@ -1,0 +1,24 @@
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.inputBlock{
+    display: flex;
+    margin-bottom: 40px
+}
+
+.inputBlock div {
+    margin-right: 1rem;
+    width: 15rem;
+}
+
+
+.textArea{
+
+}
+
+.buttonForSend {
+
+}
