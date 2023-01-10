@@ -1,25 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.148e4226.css",
-    "main.js": "/portfolio/static/js/main.44646552.js",
+    "main.css": "/portfolio/static/css/main.04c852a9.css",
+    "main.js": "/portfolio/static/js/main.ebb2783c.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/whV6-WJa6_U.jpg": "/portfolio/static/media/whV6-WJa6_U.588b78a5e5a41011e953.jpg",
     "static/media/keyboard.jpg": "/portfolio/static/media/keyboard.5202cce914d9a78bfacd.jpg",
     "static/media/counter.jpg": "/portfolio/static/media/counter.e6ce3a82fb2ae71a3886.jpg",
-    "static/media/instagram.png": "/portfolio/static/media/instagram.2d5cedd576ca1a740d7c.png",
-    "static/media/telegram.png": "/portfolio/static/media/telegram.16653560856d2f7d7495.png",
-    "static/media/github.png": "/portfolio/static/media/github.a5527b5c02e754fc4a6d.png",
-    "static/media/google.png": "/portfolio/static/media/google.4e4e29450907975f4c9f.png",
     "static/media/todolist.jpg": "/portfolio/static/media/todolist.dbd191548f344e0b70c9.jpg",
     "static/media/redux.svg": "/portfolio/static/media/redux.0daf121f0c0359307c0fa8332d955164.svg",
     "static/media/closeOutline.svg": "/portfolio/static/media/closeOutline.91a6693133923612a0702421ab3e9923.svg",
     "index.html": "/portfolio/index.html",
     "static/media/burger.svg": "/portfolio/static/media/burger.e4e6b98e4ee0b2dfcd76d02a9eed2e34.svg",
-    "main.148e4226.css.map": "/portfolio/static/css/main.148e4226.css.map",
-    "main.44646552.js.map": "/portfolio/static/js/main.44646552.js.map",
+    "main.04c852a9.css.map": "/portfolio/static/css/main.04c852a9.css.map",
+    "main.ebb2783c.js.map": "/portfolio/static/js/main.ebb2783c.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.148e4226.css",
-    "static/js/main.44646552.js"
+    "static/css/main.04c852a9.css",
+    "static/js/main.ebb2783c.js"
   ]
 }
