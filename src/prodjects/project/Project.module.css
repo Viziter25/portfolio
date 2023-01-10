@@ -28,3 +28,9 @@
     background-size: cover;
     background-position: center;
 }
+
+@media (max-width: 425px) {
+    .project {
+        width: 250px;
+    }
+}

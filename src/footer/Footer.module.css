@@ -1,11 +1,12 @@
 .footer {
-    background-color: #eccccc;
+    background-color: #f5f5f5;
 }
 
 .footerContainer {
     display: flex;
-    flex-direction: column;
+    justify-content: end;
     align-items: center;
+    margin-right: 40px;
 }
 
 .socialBlock {
@@ -22,6 +23,20 @@
 
 .socialItemIcon {
     margin: auto 10px;
+}
+
+.itemLink {
+    margin-bottom: 5px;
+    color: #919191;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'montserratlight', serif;
+    line-height: 19px;
+    transition: all .3s ease;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    word-wrap: break-word;
 }
 
 @media (max-width: 550px) {

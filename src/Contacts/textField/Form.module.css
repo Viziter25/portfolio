@@ -1,24 +1,110 @@
 .contactForm {
-    display: flex;
-    flex-direction: column;
-    margin: 20px 0;
+    /*width: 66.66666667%;*/
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
-.inputBlock{
+.form {
+    margin: 0 auto;
+    width: 503px;
+}
+
+.inputBlock {
     display: flex;
     margin-bottom: 40px
 }
 
-.inputBlock div {
-    margin-right: 1rem;
-    width: 15rem;
+.inputItem {
+    width: 50%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
+.input {
+    font-weight: 300;
+    line-height: 26px;
+    color: #b3b3b3;
+    border: none;
+    border-bottom: 1px solid #d9d9d9;
+    padding: 5px 0;
+    border-radius: 0;
+    box-shadow: none;
+    margin-bottom: 0;
+    width: 100%;
+}
 
-.textArea{
+.inputBlock div {
+    /*margin-right: 1rem;*/
+    /*width: 15rem;*/
+}
 
+.textAreaBlock {
+    width: 100%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.textArea {
+    max-height: 148px;
+    font-weight: 300;
+    line-height: 26px;
+    color: #b3b3b3;
+    padding: 10px 20px;
+
+    border: 1px solid #d9d9d9;
+    border-radius: 0;
+    box-shadow: none;
+    margin-bottom: 0;
+    width: 100%;
+    margin-top: 50px;
 }
 
 .buttonForSend {
+    width: unset;
+    line-height: 40px;
+    border: 1px solid #d9d9d9;
+    border-radius: 0;
+    box-shadow: none;
+    margin-bottom: 0;
+    cursor: pointer;
 
+    background-color: #393939;
+    color: #f3f3f3;
+    font-size: 14px;
+    padding: 0 30px;
+    -webkit-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width: 600px) {
+    .form {
+        width: 350px;
+    }
+
+    .inputBlock {
+        display: block;
+    }
+
+    .inputItem {
+        width: 100%;
+        padding-top: 15px;
+    }
+
+    .textArea {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    .form {
+        width: 280px;
+    }
 }

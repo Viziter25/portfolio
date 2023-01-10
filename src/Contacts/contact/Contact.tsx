@@ -16,12 +16,12 @@ export const Contact: FC<ContactPropsType> = ({logo, title,contact, address}) =>
       <div className={s.contact}>
         <div className={s.contactBlock}>
             <a href={address} className={s.contactIcon}>
-              <img src={logo} alt=""/>
+              <img src={logo} alt="icon"/>
             </a>
           <div>
             <h4 className={s.contactTitle}>{title}</h4>
             <span>
-              <a className={s.contactLink} href="">{contact}</a>
+              <a className={s.contactLink} href={address}>{contact}</a>
             </span>
           </div>
         </div>

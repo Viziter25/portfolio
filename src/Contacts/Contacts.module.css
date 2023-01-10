@@ -7,11 +7,15 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
+}
+
+.contactsItem {
+    /*width: 33.3%;*/
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .contactsBlock {
-    width: 40em;
 }
 
 .text {
@@ -25,3 +29,9 @@
 
 
 
+@media (max-width: 1000px) {
+    .contactsContainer {
+        flex-wrap: wrap;
+    }
+
+}

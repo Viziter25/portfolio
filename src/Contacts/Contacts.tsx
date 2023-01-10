@@ -22,8 +22,8 @@ export const Contacts = () => {
 
 
     const contact: ContactType[]  = [
-      {logo: phoneIcon, title: 'Phone', contact: '+37544586394', address: ''},
-      {logo: emailIcon, title: 'Email', contact: 'zlotnik.ilya1994@gmail.com', address: ''},
+      {logo: phoneIcon, title: 'Phone', contact: '+37544586394', address: 'tel:+375445863944'},
+      {logo: emailIcon, title: 'Email', contact: 'zlotnik.ilya1994@gmail.com', address: 'mailto:zlotnik.ilya1994@gmail.com'},
       {logo: telegramIcon, title: 'Telegram', contact: 'Ilya Zlotnik', address: 'https://t.me/IlyaZlotnik'},
     ]
 
@@ -33,11 +33,13 @@ export const Contacts = () => {
     <div className={s.contacts}>
       <div className={styles.container}>
         <div className={s.contactsContainer}>
-          <div>
+          <div className={s.contactsItem} >
             <div className={s.contactsBlock}>
               <TitleContact title={'LET\'S GET IN TOUCH'}/>
-              <p className={s.text}>There are many variations of pssges of Lorem Ipsum available, bu in some form,
-                by</p>
+              <div>
+                <p className={s.text}>There are many variations of pssges of Lorem Ipsum available, bu in some form,
+                  by</p>
+              </div>
             </div>
             {contact.map(elem => <Contact key={elem.title} title={elem.title} contact={elem.contact} logo={elem.logo} address={elem.address}/>)}
           </div>
