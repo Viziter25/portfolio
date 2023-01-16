@@ -9,6 +9,13 @@
     justify-content: space-around;
     flex-wrap: wrap;
 }
+.particle{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
 
 .text {
     width: 30rem;
@@ -16,12 +23,12 @@
 }
 
 .photoBlock {
-    width: 50%;
+    width: 40%;
 }
 
 .photo {
     height: auto;
-    max-width: 80%;
+    max-width: 70%;
     border: none;
     border-radius: 0;
     box-shadow: none;

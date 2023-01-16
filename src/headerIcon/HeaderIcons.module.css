@@ -11,15 +11,16 @@
 
 .socialBlock {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
 
 
-/*@media (max-width: 550px) {*/
-/*    .footer {*/
-/*       ;*/
-/*    }*/
+@media (max-width: 550px) {
+    .socialBlock {
+        flex-wrap: nowrap;
+    }
 
-/*}*/
+
+}

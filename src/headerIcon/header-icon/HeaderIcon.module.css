@@ -1,0 +1,51 @@
+.socialItem {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.socialItemIcon {
+    margin: auto 10px;
+}
+
+.socialImg {
+    height: 30px;
+}
+
+.socialImg:hover {
+    filter: drop-shadow(2px 3px 5px #383232);
+}
+
+
+.itemLink {
+    margin-bottom: 5px;
+    color: #919191;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'montserratlight', serif;
+    line-height: 19px;
+    transition: all .3s ease;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    word-wrap: break-word;
+}
+
+.itemLink:hover {
+    transition: all .9s ease 0s;
+    color: #231919;
+}
+
+
+
+@media (max-width: 600px) {
+
+    .socialItem {
+        padding: 0px;
+    }
+
+    .socialImg {
+        height: 20px;
+    }
+
+}

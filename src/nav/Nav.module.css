@@ -1,7 +1,7 @@
 .nav {
     display: flex;
     border: 1px solid;
-    width: 55%;
+    width: 45%;
     justify-content: space-between;
     margin-right: 40px;
 }

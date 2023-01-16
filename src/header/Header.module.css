@@ -8,7 +8,7 @@
     height: 80px;
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: space-between;
 }
 
 .burgerMenuIcon {
@@ -24,6 +24,6 @@
     }
 
     .headerContainer {
-        justify-content: flex-start;
+        justify-content: space-between;
     }
 }

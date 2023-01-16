@@ -3,18 +3,30 @@ import s from './Main.module.css'
 import styles from '../common/styles/Container.module.css'
 import {MyName} from './myName/MyName';
 import photo from '../assets/img/whV6-WJa6_U.jpg'
+// import {Particle} from './particles/Particle';
+import {Fade} from 'react-awesome-reveal';
+
+
 
 export const Main = () => {
   return (
     <div className={s.mainBlock}>
+
       <div className={styles.container}>
+        {/*<Particle />*/}
         <div className={s.mainContainer}>
-          <MyName/>
+          <Fade direction="left">
+            <MyName/>
+          </Fade>
           <div className={s.photoBlock}>
-            <img src={photo} alt="myPhoto" className={s.photo}/>
+            <Fade direction="right" duration={2000}>
+              <img src={photo} alt="myPhoto" className={s.photo}/>
+            </Fade>
           </div>
+
         </div>
       </div>
+
     </div>
   );
 };

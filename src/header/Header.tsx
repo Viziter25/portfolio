@@ -4,6 +4,8 @@ import styles from '../common/styles/Container.module.css'
 import burgerIcon from './burger.svg'
 import {Nav} from '../nav/Nav';
 import {Sidebar} from './Sidebar/Sidebar';
+import {HeaderIcons} from '../headerIcon/HeaderIcons';
+import {Fade} from 'react-awesome-reveal';
 
 export const Header = () => {
 
@@ -29,7 +31,10 @@ export const Header = () => {
             onClick={handleOpen}
             alt={'open menu'}
           />
-          <Nav />
+              <Nav/>
+          <Fade direction="right">
+            <HeaderIcons/>
+          </Fade>
           <Sidebar open={open} handleClose={handleClose}/>
         </div>
       </div>

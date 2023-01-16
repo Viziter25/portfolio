@@ -36,3 +36,15 @@
     font-weight: 400;
     font-size: 14px;
 }
+
+.contactLink:hover {
+    transition: all .9s ease 0s;
+    font-size: 15px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.contactIcon:hover {
+    transition: all .9s ease 0s;
+    background-color: #2b2b2b;
+}

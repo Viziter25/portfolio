@@ -2,11 +2,11 @@ import React from 'react';
 import s from './Projects.module.css'
 import styles from '../common/styles/Container.module.css'
 import {Project} from './project/Project';
-
 import todoImage from './../assets/img/counter.jpg'
 import todolistImage from './../assets/img/todolist.jpg'
 import keyBoardImage from './../assets/img/keyboard.jpg'
 import {Title} from '../common/components/title/Title';
+import {Fade} from 'react-awesome-reveal';
 
 
 type ProjectType = {
@@ -45,16 +45,21 @@ export const Projects = () => {
   ]
 
   return (
+
     <div className={s.projects}>
-      <div className={styles.container}>
-        <div className={s.projectsContainer}>
-          <Title title={'My projects'}/>
-          <div className={s.projectsBlock}>
-            {project.map(elem => <Project key={elem.title} title={elem.title} description={elem.description} style={elem.style} url={elem.url}/>)}
+      <Fade direction="left" duration={2000}>
+        <div className={styles.container}>
+          <div className={s.projectsContainer}>
+            <Title title={'My projects'}/>
+            <div className={s.projectsBlock}>
+              {project.map(elem => <Project key={elem.title} title={elem.title} description={elem.description}
+                                            style={elem.style} url={elem.url}/>)}
+            </div>
           </div>
         </div>
-      </div>
+      </Fade>
     </div>
+
   );
 };
 
