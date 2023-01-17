@@ -46,8 +46,7 @@ export const Skills = () => {
   ]
 
   return (
-    <div className={s.skills}>
-
+    <div className={s.skills} id='skills'>
       <div className={styles.container}>
         <Fade direction='left' duration={2000}>
           <div className={s.skillsContainer}>

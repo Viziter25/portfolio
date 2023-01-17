@@ -34,7 +34,7 @@ export const Contacts = () => {
 
 
   return (
-    <div className={s.contacts}>
+    <div className={s.contacts} id='contacts'>
       <div className={styles.container}>
         <div className={s.contactsContainer}>
 

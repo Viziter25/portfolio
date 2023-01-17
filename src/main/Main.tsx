@@ -5,13 +5,13 @@ import {MyName} from './myName/MyName';
 import photo from '../assets/img/whV6-WJa6_U.jpg'
 // import {Particle} from './particles/Particle';
 import {Fade} from 'react-awesome-reveal';
+import Tilt from 'react-parallax-tilt';
 
 
 
 export const Main = () => {
   return (
     <div className={s.mainBlock}>
-
       <div className={styles.container}>
         {/*<Particle />*/}
         <div className={s.mainContainer}>
@@ -20,7 +20,9 @@ export const Main = () => {
           </Fade>
           <div className={s.photoBlock}>
             <Fade direction="right" duration={2000}>
-              <img src={photo} alt="myPhoto" className={s.photo}/>
+              <Tilt className="Tilt" >
+                <img src={photo} alt="myPhoto" className={s.photo}/>
+              </Tilt>
             </Fade>
           </div>
 

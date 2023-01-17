@@ -45,8 +45,7 @@ export const Projects = () => {
   ]
 
   return (
-
-    <div className={s.projects}>
+    <div className={s.projects} id='projects'>
       <Fade direction="left" duration={2000}>
         <div className={styles.container}>
           <div className={s.projectsContainer}>

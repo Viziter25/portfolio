@@ -16,7 +16,6 @@
 }
 
 .skillsBlock {
-    border: 1px solid;
     width: 100%;
     display: flex;
     justify-content: space-around;
