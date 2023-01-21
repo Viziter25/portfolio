@@ -19,9 +19,18 @@ export const Header = () => {
     !open && (document.body.style.overflow = 'unset')
   }, [open]) // отключает прокрутку при открытом меню
 
+  const [scroll, setScroll] = useState(0)
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+  const handleScroll = () => {
+    setScroll(window.scrollY);
+  };
+
 
   return (
-    <header className={s.header}>
+    <header className={scroll > 200 ? s.headerScroll : s.header}>
       <div className={styles.container}>
         <div className={s.headerContainer}>
           <img
@@ -31,7 +40,7 @@ export const Header = () => {
             onClick={handleOpen}
             alt={'open menu'}
           />
-              <Nav/>
+          <Nav/>
           <Fade direction="right">
             <HeaderIcons/>
           </Fade>

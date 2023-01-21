@@ -11,7 +11,7 @@ import Tilt from 'react-parallax-tilt';
 
 export const Main = () => {
   return (
-    <div className={s.mainBlock}>
+    <div className={s.mainBlock} id='main'>
       <div className={styles.container}>
         {/*<Particle />*/}
         <div className={s.mainContainer}>

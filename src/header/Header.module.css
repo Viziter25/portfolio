@@ -4,6 +4,16 @@
     padding-bottom: 30px;
 }
 
+.headerScroll {
+    background: #f5f5f5;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 1px 4px rgb(2 3 3 / 10%);
+    animation: .3s ease-in-out 0s normal none 1 running fadeInDown;
+}
+
+
 .headerContainer {
     height: 80px;
     display: flex;

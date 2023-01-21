@@ -11,7 +11,7 @@ export const Nav = () => {
               to="main"
               spy={true}
               smooth={true}
-              offset={100}
+              offset={-70}
               duration={500}>
           Main
         </Link>
@@ -19,7 +19,7 @@ export const Nav = () => {
               to="skills"
               spy={true}
               smooth={true}
-              offset={1}
+              offset={-70}
               duration={500}>
           Skills
         </Link>
@@ -27,16 +27,16 @@ export const Nav = () => {
               to="projects"
               spy={true}
               smooth={true}
-              offset={1}
+              offset={-70}
               duration={500}>
-          My project
+          Project
         </Link>
         {/*<a href="">Education</a>*/}
         <Link activeClass={s.active}
               to="contacts"
               spy={true}
               smooth={true}
-              offset={1}
+              offset={-70}
               duration={500}>
           Contacts
         </Link>
