@@ -1,5 +1,6 @@
 .footer {
     background-color: #f5f5f5;
+    padding: 28px 0;
 }
 
 .footerContainer {
@@ -16,10 +17,9 @@
 }
 
 
+@media (max-width: 600px) {
+    .footerContainer {
+        justify-content: center;
+    }
 
-/*@media (max-width: 550px) {*/
-/*    .footer {*/
-/*       ;*/
-/*    }*/
-
-/*}*/
+}

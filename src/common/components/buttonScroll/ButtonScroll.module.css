@@ -9,8 +9,9 @@
     background-color: black;
     color: white;
     border: none;
+    z-index: 99999;
 }
 
 .buttonBlock button.show {
-    bottom: 0rem;
+    bottom: 5rem;
 }

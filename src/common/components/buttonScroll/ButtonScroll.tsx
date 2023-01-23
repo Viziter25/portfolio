@@ -3,7 +3,6 @@ import s from  './ButtonScroll.module.css'
 
 
 export const ButtonScroll = () => {
-debugger
   const [scroll, setScroll] = useState(0);
 
   const handleScroll = () => {

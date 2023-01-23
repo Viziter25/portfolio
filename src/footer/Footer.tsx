@@ -29,7 +29,7 @@ export const Footer = () => {
         <Fade direction="up">
         <div className={s.footerContainer}>
           <div className={s.socialBlock}>
-            {footerItem.map(elem => <FooterItem logo={elem.logo} address={elem.address} title={elem.title}/>)}
+            {footerItem.map((elem, i) => <FooterItem key={i} logo={elem.logo} address={elem.address}/>)}
             </div>
         </div>
           </Fade>

@@ -1,6 +1,9 @@
 import React, {FC} from 'react'
 import s from './Sidebar.module.css'
 import closeIcon from './closeOutline.svg'
+import {Nav} from '../../nav/Nav';
+import {Link} from 'react-scroll';
+import {Fade} from 'react-awesome-reveal';
 
 
 type PropsType = {
@@ -21,16 +24,47 @@ export const Sidebar: FC<PropsType> = ({open, handleClose}) => {
           <img
             src={closeIcon}
             alt="close sidebar"
-            // id={'hw5-menu-close'}
           />
         </button>
 
+
+
         <nav className={s.nav}>
-            <a href="">Main</a>
-            <a href="">Skills</a>
-            <a href="">My project</a>
-            <a href="">Education</a>
-            <a href="">Contacts</a>
+          <Fade direction={'left'}>
+            <Link activeClass={s.active}
+                  to="main"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}>
+              Main
+            </Link>
+            <Link activeClass={s.active}
+                  to="skills"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}>
+              Skills
+            </Link>
+            <Link activeClass={s.active}
+                  to="projects"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}>
+              Project
+            </Link>
+            {/*<a href="">Education</a>*/}
+            <Link activeClass={s.active}
+                  to="contacts"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}>
+              Contacts
+            </Link>
+          </Fade>
         </nav>
       </aside>
     </>

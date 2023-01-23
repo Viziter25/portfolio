@@ -23,7 +23,9 @@
 }
 
 .photoBlock {
-    width: 40%;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
 }
 
 .photo {
@@ -32,4 +34,5 @@
     border: none;
     border-radius: 0;
     box-shadow: none;
+    width: 100%;
 }
