@@ -40,6 +40,7 @@ export const Nav = () => {
               duration={500}>
           Contacts
         </Link>
+        <a href="https://www.canva.com/design/DAFV4MVO2jI/RJKrnE9gpgWq5BMtbf9V6g/view?website#4" target={'_blank'}>CV</a>
       </Fade>
     </div>
   );

@@ -21,7 +21,7 @@ export const Contact: FC<ContactPropsType> = ({logo, title,contact, address}) =>
           <div>
             <h4 className={s.contactTitle}>{title}</h4>
             <span>
-              <a className={s.contactLink} href={address}>{contact}</a>
+              <a className={s.contactLink} href={address} >{contact}</a>
             </span>
           </div>
         </div>

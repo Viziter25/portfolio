@@ -2,7 +2,9 @@ import React from 'react';
 import s from './Projects.module.css'
 import styles from '../common/styles/Container.module.css'
 import {Project} from './project/Project';
-import todoImage from './../assets/img/counter.jpg'
+import shelter from './../assets/img/shelter.png'
+import cards from './../assets/img/cards.jpg'
+import social from './../assets/img/social.jpg'
 import todolistImage from './../assets/img/todolist.jpg'
 import keyBoardImage from './../assets/img/keyboard.jpg'
 import {Title} from '../common/components/title/Title';
@@ -36,11 +38,27 @@ export const Projects = () => {
     },
     {
       style: {
-        backgroundImage: `url(${todoImage} )`
+        backgroundImage: `url(${shelter} )`
       },
       title: 'Shelter',
       description: 'Technology stack: HTML, CSS, media queries, transformation & animation, perfect-pixel, responsive design, modal window',
-      url: 'https://viziter25.github.io/RSS-Virtual-Keyboard/'
+      url: 'https://viziter25.github.io/shelter'
+    },
+    {
+      style: {
+        backgroundImage: `url(${cards} )`
+      },
+      title: 'Training YourSelf',
+      description: 'Technology stack: JavaScript, TypeScript, SCSS, React, Redux Toolkit, Redux-thunk, Axios, Formik, Material UI, Yap, Refactoring, Deploying; React Hook; React-Router-dom.',
+      url: 'https://viziter25'
+    },
+    {
+      style: {
+        backgroundImage: `url(${social} )`
+      },
+      title: 'Social Network',
+      description: 'Technology stack: JavaScript, TypeScript, CSS, React, Redux, Redux-thunk, Axios, React Hook, Deploying, organizing correct app architecture.',
+      url: 'https://viziter25.github.io/'
     },
   ]
 

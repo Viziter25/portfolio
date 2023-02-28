@@ -5,6 +5,8 @@ import {TitleContact} from './title/TitleContact';
 import {Contact} from './contact/Contact';
 import phoneIcon from './../assets/icon/call.png'
 import emailIcon from './../assets/icon/email.png'
+import download from './../assets/icon/download2.png'
+import cv from './../assets/img/cv.pdf'
 import telegramIcon from './../assets/icon/telegram.png'
 import {Form} from './textField/Form';
 import {Fade} from 'react-awesome-reveal';
@@ -34,7 +36,7 @@ export const Contacts = () => {
 
 
   return (
-    <div className={s.contacts} id='contacts'>
+    <div className={s.contacts} id="contacts">
       <div className={styles.container}>
         <div className={s.contactsContainer}>
 
@@ -42,21 +44,33 @@ export const Contacts = () => {
             <div className={s.contactsBlock}>
               <TitleContact title={'LET\'S GET IN TOUCH'}/>
               <div>
-                <p className={s.text}>There are many variations of pssges of Lorem Ipsum available, bu in some form,
-                  by</p>
-              </div>
+                <p className={s.text}>I Front-End Developer with experience 1 years of in creating SPA using React
+                  (JS/TS), Redux. Now I am improving my skills in this direction and expanding them with new
+                  technologies.
+
+                </p>
+                <p className={s.text}>Applying new stack technologies does not cause difficulties. Constantly self-learning in different
+                  online platforms.</p>
+                <p className={s.text}>
+                Open for your suggestions.
+              </p>
             </div>
-            <Fade direction="left">
-              {contact.map(elem => <Contact key={elem.title} title={elem.title} contact={elem.contact} logo={elem.logo}
-                                            address={elem.address}/>)}
-            </Fade>
           </div>
-          <Fade direction="right">
-            <Form/>
+          <Fade direction="left">
+            {contact.map(elem => <Contact key={elem.title} title={elem.title} contact={elem.contact} logo={elem.logo}
+                                          address={elem.address}/>)}
+            <div className={s.blockCV}>
+              <a className={s.linkCv} href={cv} download>Download CV <img src={download} alt=""/></a>
+            </div>
           </Fade>
         </div>
+        <Fade direction="right">
+          <Form/>
+        </Fade>
       </div>
-
     </div>
-  );
+
+</div>
+)
+  ;
 };

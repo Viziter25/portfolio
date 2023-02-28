@@ -6,7 +6,7 @@
 .contactsContainer {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+
 }
 
 .contactsItem {
@@ -27,7 +27,26 @@
     margin: 0 0 15px;
 }
 
+.blockCV {
+    padding: 15px 0 0 20px;
+}
 
+.linkCv:hover {
+    transition: all .9s ease 0s;
+    background-color: #525252;
+}
+
+.linkCv {
+    border: 1px solid #a8a8a8;
+    padding: 0.8rem 2.2rem;
+    color: #7b7b7b;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Montserrat',sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+
+}
 
 @media (max-width: 1000px) {
     .contactsContainer {
