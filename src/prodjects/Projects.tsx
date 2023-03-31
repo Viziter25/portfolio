@@ -50,7 +50,7 @@ export const Projects = () => {
       },
       title: 'Training YourSelf',
       description: 'Technology stack: JavaScript, TypeScript, SCSS, React, Redux Toolkit, Redux-thunk, Axios, Formik, Material UI, Yap, Refactoring, Deploying; React Hook; React-Router-dom.',
-      url: 'https://viziter25'
+      url: 'https://viziter25.github.io/cards'
     },
     {
       style: {
